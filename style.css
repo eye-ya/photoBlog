@@ -1,0 +1,78 @@
+body {
+	font-family: Lora;
+	font-size: 16px;
+	line-height: 1.5;
+
+	background-color: #004d9d;
+	color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+footer {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+section {
+  height: 100vh;
+
+  background-image: url(ake_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section.ake_2 {
+  background-image: url(ake_2.jpg);
+}
+
+section.ake_3 {
+  background-image: url(ake_3.jpg);
+}
+
+section.ake_4 {
+  background-image: url(ake_4.jpg);
+}
+
+section.ake_5 {
+  background-image: url(ake_5.jpg);
+}
+
+@media (max-width: 600px) {
+  header {
+    top:  20px;
+    left:  20px;
+  }
+
+  footer {
+    bottom:  20px;
+    left:  20px;
+  }
+
+  section {
+    height: 75vw;
+    background-attachment: scroll;
+  }
+}
