@@ -1,6 +1,6 @@
 body {
-	font-family: Lora;
-	font-size: 16px;
+	font-family: 'IM Fell Great Primer', serif;
+	font-size: 20px;
 	line-height: 1.5;
 	margin: 0;
 	background-color: #004d9d;
@@ -15,7 +15,7 @@ header {
 
 h1 {
 	font-size: 24px;
-	font-weight: 400;
+	font-style: italic;
 }
 
 footer {
@@ -75,4 +75,5 @@ section.ake_5 {
     height: 75vw;
     background-attachment: scroll;
   }
+
 }
